@@ -143,4 +143,5 @@ func deleteOneCourse(w http.ResponseWriter, r *http.Request)  {
 	
 }
 	}
+	json.NewEncoder(w).Encode("Deleted Successfully")
 }
