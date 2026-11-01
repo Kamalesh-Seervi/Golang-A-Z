@@ -1,3 +1,3 @@
-module time
+module timelesson
 
 go 1.20

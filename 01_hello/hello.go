@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("Hello, World!")
+	// Println writes the text followed by a newline to standard output.
+	fmt.Println("Hello, World!")
 }
-// when you type fmt.Println it will automatically import fmt without typing it "go lang feature"
+
+// The import line above can be added for you by editor tooling (the Go extension
+// in VS Code runs goimports/gopls on save). The Go compiler never adds imports itself.
