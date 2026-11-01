@@ -6,7 +6,7 @@ const token int = 134325 //public
 
 func main()  {
 	// string
-	var name string = "Kamalesh"
+	var name string = "tester"
 	fmt.Println("Hello, ",name)
 	fmt.Printf("variable of type: %T \n",name)
 
@@ -22,7 +22,7 @@ func main()  {
 
 	//float are of two types float32 and 64
 
-	var flt float32 = 4592.028502803085028
+	var flt float32 = 4592.028002853085028
 	fmt.Println(flt)
 	fmt.Printf("variable of type: %T \n",flt)
 
@@ -41,7 +41,7 @@ func main()  {
 
 	//implicit type 
 
-	var nametyp = "Kamalesh007"
+	var nametyp = "tester007"
 	fmt.Println(nametyp)
 	fmt.Printf("variable of type: %T \n",nametyp)
 

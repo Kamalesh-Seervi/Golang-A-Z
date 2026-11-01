@@ -14,6 +14,5 @@ func main() {
 
 	createdDate := time.Date(2002, time.December,20,20,20,0,0,time.Local)
 	fmt.Println(createdDate)
-	
 
 }
